@@ -9,8 +9,8 @@ export default function ClientLayout({
   children: React.ReactNode;
 }) {
   const [isMounted, setIsMounted] = useState(false);
-  const [Analytics, setAnalytics] = useState<React.ComponentType<{}> | null>(null);
-  const [SpeedInsights, setSpeedInsights] = useState<React.ComponentType<{}> | null>(null);
+  const [Analytics, setAnalytics] = useState<React.ComponentType<object> | null>(null);
+  const [SpeedInsights, setSpeedInsights] = useState<React.ComponentType<object> | null>(null);
 
   useEffect(() => {
     // Set a small timeout to ensure the initial render happens before mounting
