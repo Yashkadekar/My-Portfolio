@@ -1,0 +1,47 @@
+export const selfData = {
+  name: "Yash Kadekar",
+  first_name: "Yash",
+  last_name: "Kadekar",
+  jobTitle: "Student Developer",
+  workFor: "Sanjivani University",
+  current_location: {
+    city: "Kopargoan",
+    state: "Maharashtra",
+    country: "India",
+  },
+  DOB: {
+    dd: 9,
+    mm: 8,
+    yyyy: 2004,
+  },
+  email: "yashkadekar22@gmail.com",
+  phone: "919890833541",
+  roles: [
+    "Creative Technologist",
+    "Idea Mechanic",
+    "Possibility Pilot",
+    "Chaos Coordinator",
+    "Chief Tinkerer",
+    "Glitch Gladiator",
+    "Solution Sorcerer",
+    "Joyful Juggler",
+  ],
+  desc: "I design and build tools that live on the internet.",
+  bio: "I'm a student full-stack developer and cybersecurity enthusiast who loves building secure, user-friendly web apps. I blend creativity with technical depth to craft resilient tools and explore emerging tech that empowers communities.",
+  about: [
+    "Hi, I'm a student developer who likes breaking things just to figure out how to fix them usually with JavaScript and snacks. I build web apps that try their best to work on the first try (no promises though).",
+    "React and Tailwind are my daily tools, and I'm currently exploring the mysterious land of backend development where bugs go to multiply. Full-stack dreams, coffee-fueled nights, and lots of console.log.",
+    "When I'm not coding, I'm either daydreaming startup ideas, lurking on GitHub, or explaining to my friends why 'it works on my machine' is totally valid. I love creating stuff that’s fun, functional, and maybe a little chaotic.",
+  ],
+
+  socials_username: {
+    github: "Yashkadekar",
+    instagram: "yash_kadekar_96k",
+    leetcode: "Yash Kadekar",
+    linkedin: "yash-kadekar-62513936a",
+    snapchat: "yashkadekar22",
+    // telegram: "@yashkadekar",
+    twitter: "Yash__Kadekar",
+    whatsapp: "919890833541",
+  },
+};
